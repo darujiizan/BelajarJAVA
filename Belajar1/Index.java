@@ -65,30 +65,30 @@ public class BelajarJava {
 //		Pengkondisian
 	  	String Order = "AYAM";
 	  	if (Order.toLowerCase().equals("ayam")) {
-			    System.out.println("Ayam akan disajikan");			
+		System.out.println("Ayam akan disajikan");			
 	  	} else if (Order.toLowerCase().equals("ikan")) {
-		    	System.out.println("Ikan akan disajikan");
+		System.out.println("Ikan akan disajikan");
 	  	} else if (Order.toLowerCase().equals("sapi")) {
-			    System.out.println("Stok Sapi habis");
+		System.out.println("Stok Sapi habis");
 	  	} else {
-		  	  System.out.println("Menu tidak tersedia");			
+		System.out.println("Menu tidak tersedia");			
 	  	}
 
 //		Switch
-		  String key = "W";
-		  switch (key) {
-			  case "W":
-				  System.out.println("Move Forward");
-				  break;
-			  case "A":
-			  	System.out.println("Move Left");
-			  	break;
-		  	case "S":
-				  System.out.println("Move Backward");
-				  break;
-		  	case "D":
-				  System.out.println("Move Right");
-				  break;
-		  }	
+		String key = "W";
+		switch (key) {
+		case "W":
+		System.out.println("Move Forward");
+		break;
+		case "A":
+		System.out.println("Move Left");
+		break;
+		case "S":
+		System.out.println("Move Backward");
+		break;
+		case "D":
+		System.out.println("Move Right");
+		break;
+		}	
 	}
 }
