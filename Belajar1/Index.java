@@ -10,7 +10,7 @@ public class BelajarJava {
 		
 //		String
 	  	String Text = "Jumlah tipe data: ";
-		  System.out.println(Text);
+		System.out.println(Text);
 		
 //		Integer
 	  	int Angka = 1;
@@ -22,7 +22,7 @@ public class BelajarJava {
 		
 //		Bolean
 	  	boolean IsAlive = false;
-		  System.out.println(IsAlive);
+		System.out.println(IsAlive);
 		
 //		Variable
 //		Sebuah wadah untuk menampung suatu nilai (Penulisan variable
